@@ -1,0 +1,40 @@
+body{
+    background-color: #47B9B3;
+}
+
+.kalender-container{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-template-areas:
+    "a a a b b"
+    ;
+}
+
+.grid-item{
+    
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+p{
+    color: #00454E;
+}
+
+h1{
+    color: #00454E;
+}
+
+h2{
+    color: #00454E;
+}
+
+.left-blok{
+    background-color: hotpink;
+    grid-area: a;
+}
+
+.tid{
+    background-color: hotpink;
+    grid-area: b;
+}
+
