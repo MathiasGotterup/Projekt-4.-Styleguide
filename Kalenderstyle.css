@@ -1,17 +1,17 @@
 body{
     background-color: #47B9B3;
+    max-width: 390px;
 }
 
 .kalender-container{
     display: grid;
-    grid-template-columns: repeat(5 ,1fr);
     grid-template-areas:
-    "a a a b b"
-    ;
+    "a b"
+    "a b";
+    grid-template-columns: repeat(2 ,1fr);
 }
 
 .grid-item{
-    
     padding-left: 1%;
     padding-bottom: 1%;
 }
@@ -29,12 +29,14 @@ h2{
 }
 
 .left-blok{
-    background-color: hotpink;
+    background-color: #CAE4E3;
     grid-area: a;
+    padding-bottom: 2px;
+    padding-left: 2px;
 }
 
-.tid{
-    background-color: hotpink;
+.grid-item .tid{
+    background-color: #CAE4E3;
     grid-area: b;
 }
 
