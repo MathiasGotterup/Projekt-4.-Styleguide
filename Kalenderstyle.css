@@ -26,7 +26,6 @@ body{
     ". . . . . . . . . ."
     "b b b b b . c c c ."
     "b b b b b . g g g ."
-    
     ;
     grid-template-columns: repeat(10 ,1fr);
     background-color: #CAE4E3;
