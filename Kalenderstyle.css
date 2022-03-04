@@ -6,14 +6,22 @@ body{
 .kalender-container{
     display: grid;
     grid-template-areas:
-    "a b b b b"
-    "a b b b b";
-    grid-template-columns: repeat(5 ,1fr);
+    "a a a a a . b b"
+    "a a a a a . d d"
+    "a a a a a . c c"
+    "a a a a a . e e"
+    ;
+    grid-template-columns: repeat(8 ,1fr);
+    background-color: #CAE4E3;
 }
 
 .item1{
     padding-left: 1%;
     padding-bottom: 1%;
+    grid-area: a;
+    background-color: #FFFFFF;
+    padding-left: 0.5em;
+
 }
 
 p{
@@ -29,4 +37,25 @@ h2{
 }
 
 
+.modul1{
+    grid-area: b;
+    padding-left: 1em;
+}
+
+.modul2{
+    grid-area: c;
+    padding-left: 1em;
+}
+
+.Forberedelse1{
+    grid-area: d;
+}
+
+.Forberedelse2{
+    grid-area: e;
+}
+
+.knap{
+    border-radius: 2em;
+}
 
