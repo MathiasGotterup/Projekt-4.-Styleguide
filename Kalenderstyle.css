@@ -1,5 +1,9 @@
 
-body{ margin:0px; background-color: #47B9B3;}
+body{ 
+    margin:0px; 
+    background-color: #47B9B3;
+    max-width: 320px;
+}
 #prlx_lyr_1{
         position:fixed;
         background: url(storprik.png) no-repeat 0px 200px;
@@ -16,16 +20,18 @@ body{ margin:0px; background-color: #47B9B3;}
 .kalender-container{
     display: grid;
     grid-template-areas:
-    "h h . . . . . ."
-    "a a a a a . d d"
-    "a a a a a . d d"
-    ". . . . . . . ."
-    "b b b b b . c c"
-    "b b b b b . e e"
+    "h h . . . . . . ."
+    "a a a a a . d d d"
+    "a a a a a . e e e"
+    ". . . . . . . . ."
+    "b b b b b . c c c"
+    "b b b b b . g g g"
     ;
-    grid-template-columns: repeat(8 ,1fr);
+    grid-template-columns: repeat(9 ,1fr);
     background-color: #CAE4E3;
     box-sizing: border-box;
+    align-items: center;
+    margin: auto;
 }
 
 .modul1{
@@ -42,6 +48,24 @@ body{ margin:0px; background-color: #47B9B3;}
     grid-area: b;
     background-color: #FFFFFF;
     padding-left: 0.5em; 
+}
+
+.top{
+    grid-area: d;
+}
+
+.bund{
+    grid-area: c;
+}
+
+.forberedelse1{
+    grid-area: e;
+    border-radius: 8px; 
+}
+
+.forberedelse2{
+    grid-area: g;
+    border-radius: 8px;
 }
 
 .dag{
