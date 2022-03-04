@@ -13,15 +13,16 @@ body{
     ;
     grid-template-columns: repeat(8 ,1fr);
     background-color: #CAE4E3;
+    box-sizing: border-box;
 }
 
-.item1{
+.data{
     padding-left: 1%;
     padding-bottom: 1%;
     grid-area: a;
     background-color: #FFFFFF;
     padding-left: 0.5em;
-
+    
 }
 
 p{
