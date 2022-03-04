@@ -5,3 +5,4 @@ function parallax(){
 	prlx_lyr_2.style.top = -(window.pageYOffset / 8)+'px';
 }
 window.addEventListener("scroll", parallax, false);
+
