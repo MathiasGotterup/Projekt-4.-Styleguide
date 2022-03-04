@@ -20,26 +20,29 @@ body{
 .kalender-container{
     display: grid;
     grid-template-areas:
-    "h h . . . . . . ."
-    "a a a a a . d d d"
-    "a a a a a . e e e"
-    ". . . . . . . . ."
-    "b b b b b . c c c"
-    "b b b b b . g g g"
+    "h h . . . . . . . ."
+    "a a a a a . d d d ."
+    "a a a a a . e e e ."
+    ". . . . . . . . . ."
+    "b b b b b . c c c ."
+    "b b b b b . g g g ."
+    
     ;
-    grid-template-columns: repeat(9 ,1fr);
+    grid-template-columns: repeat(10 ,1fr);
     background-color: #CAE4E3;
     box-sizing: border-box;
     align-items: center;
-    margin: auto;
+    padding-left: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .modul1{
     padding-left: 1%;
     padding-bottom: 1%;
     grid-area: a;
-    background-color: hotpink;
+    background-color: #ffffff;
     padding-left: 0.5em; 
+    margin-bottom: 10px;
 }
 
 .modul2{
@@ -48,24 +51,30 @@ body{
     grid-area: b;
     background-color: #FFFFFF;
     padding-left: 0.5em; 
+    margin-bottom: 10px;
+
 }
 
 .top{
     grid-area: d;
+    margin-bottom: auto;
 }
 
 .bund{
     grid-area: c;
+    margin-bottom: auto;
 }
 
 .forberedelse1{
     grid-area: e;
     border-radius: 8px; 
+    border-color: rgb(207, 207, 207),0.5;
 }
 
 .forberedelse2{
     grid-area: g;
     border-radius: 8px;
+    border-color: rgb(207, 207, 207),0.5;
 }
 
 .dag{
