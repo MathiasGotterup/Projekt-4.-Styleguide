@@ -6,3 +6,32 @@ function parallax(){
 }
 window.addEventListener("scroll", parallax, false);
 
+//function loopuge(){
+	//document.getElementById(uge2).style.display = "block"
+//}
+
+function ifelse() {
+	let x = document.getElementById("");
+	if (x.style.display === "none") {
+	  x.style.display = "block";
+	} else {
+	  x.style.display = "none";
+	}
+  }
+  //her kan man edit i css så man kan vise forskellige dele i HTMLen
+
+let u=0
+
+  function loopuge(x) {
+	let uge1=document.getElementById("uge1")
+	let uge2=document.getElementById("uge2")
+	let uge3=document.getElementById("uge3")
+
+	const uger=["uge1", "uge2", "uge3"]
+	if (x==1) {u++}
+
+	for(let i = 0; i < uger.length;i++) {
+	if (i==u) {uger[i].style.display=block}
+	else {uger[i].style.display=none}
+	}
+  }
