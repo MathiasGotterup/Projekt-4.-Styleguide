@@ -14,8 +14,8 @@
     <div id="prlx_lyr_2"></div>-->
 
  <div id="uge1">
-    <H1>Kalender</H1> <button onclick="loopuge(1)"> Næste uge</button>
-    <!--<button onclick="loopuge(2)">Forrige uge</button>-->
+    <H1>Kalender</H1> <button id="knap"> Næste uge</button>
+    <button onclick="test(this, -1, 1)">Forrige uge</button>
 
     <div class="kalender-container">
         <h2 class="Mandag">
@@ -164,7 +164,9 @@
 </div>
 
 <div id="uge2">
-    <H1>Kalender</H1>
+    <H1>Kalender</H1> <button id="knap"> Næste uge</button>
+    <button onclick="test(this, -1)">Forrige uge</button>
+
     <div class="kalender-container">
         <h2 class="Mandag">
             lynge er sej haha
@@ -312,6 +314,10 @@
 </div>
 
 <div id="uge3">
+
+    <H1>Kalender</H1> <button id="knap"> Næste uge</button>
+    <button onclick="test(this)">Forrige uge</button>
+
     <div class="kalender-container">
         <h2 class="Mandag">
             uge 3 lol haha
@@ -457,7 +463,6 @@
         </button>
     </div>
 </div>
-
 
 </body>
 </html>
