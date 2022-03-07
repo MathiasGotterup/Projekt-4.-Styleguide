@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project4.css">
+    <script src="project4.js" defer></script>
+    <title>Forside</title>
+</head>
+<body>
+    <header>
+        <h1>UCL Erhvervsakademi og Professionshøjskole</h1>
+    </header>
+    <!-- Start Lynge's login -->
+    <main>
+        <p class="over">This Identity Provider needs to validate your identity. Please login to your existing account here so that we can return verification back to your local service.</p>
+        <div class="login">
+            <input type="text" placeholder="Brugernavn" onblur="bvalid()" id="bind">
+            <p id="berr"></p>
+            <input type="password" placeholder="Kodeord" onblur="kvalid()" id="kind">
+            <button onclick="seep()" id="btnveiw">see</button>
+            <p id="kerr"></p>
+            <button onclick="sub()">Sign in</button>
+        </div>
+    </main>
+    <!-- Slut Lynge's login -->
+
+    <!-- Start Lynge's bund menu -->
+    <footer>
+        <a href="" class="fbtn" id="fhome">
+            <img src="home.png" alt="home icon" class="ficon">
+        </a>
+        <a href="" class="fbtn">
+            <img src="news.png" alt="news icon" class="ficon">
+        </a>
+        <a href="" class="fbtn">
+            <img src="cal.png" alt="calender icon" class="ficon">
+        </a>
+        <a href="" class="fbtn">
+            <img src="imp.png" alt="important icon" class="ficon">
+        </a>
+    </footer>
+    <!-- Slut Lynge's bund menu -->
+</body>
+</html>
