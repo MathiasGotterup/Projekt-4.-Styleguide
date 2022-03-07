@@ -21,7 +21,9 @@ body{
 }
 
 .login{
-    padding: 5px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     background: white;
     text-align: justify;
     border-bottom: 2px solid gray;
