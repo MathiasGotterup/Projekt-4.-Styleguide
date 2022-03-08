@@ -100,16 +100,16 @@ background-color: #ffffff;
 
 p{
     color: #00454E;
+    font-family: 'arial';    
+    font-size: 17px;
 }
 
-h1{
-    color: #00454E;
-}
 
 h2{
     color: #00454E;
     background-color: #FFFFFF;
     padding: 0.3em;
+    font-family: 'arial';
 
 }
 
