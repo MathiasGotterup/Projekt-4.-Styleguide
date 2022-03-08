@@ -1,3 +1,62 @@
+//Staal animation
+const splash = document.querySelector(".splash");
+
+document.addEventListener("DOMContentLoaded" , (i)=>{
+    setTimeout(()=>{
+        splash.classList.add("display-none");
+    }, 50000);
+})
+  function intro() {
+      
+        let id = null;
+        const elem = document.getElementById("e");          
+        let pos = 0;
+        clearInterval(id);
+        id = setInterval(frame, 3);
+        function frame() {
+          if (pos >= 45 ) {
+            clearInterval(id); 
+            introz()
+          } else {
+        pos = pos+0.1; 
+            elem.style.marginLeft = pos + "vw"; 
+          }
+        }
+      }
+      
+      function introz() {
+      alert("hej")
+        let id = null;
+        const elem = document.getElementById("z");          
+        let pos = 0;
+        clearInterval(id);
+        id = setInterval(frame, 3);
+        function frame() {
+          if (pos >= 45 ) {
+            clearInterval(id); 
+          } else {
+        pos = pos+0.1; 
+            elem.style.marginLeft = pos + "vw"; 
+          }
+        }
+      }
+
+      const le = document.getElementById("e");
+      const lz = document.getElementById("z");
+      const li = document.getElementById("i");
+      const ln = document.getElementById("n");
+      const lf = document.getElementById("f");
+      const lo = document.getElementById("o");
+
+
+      
+
+      
+
+//Staal animation slut
+
+
+
 // Start Lynge's login 
 let checks = [false, false];
 
