@@ -1,3 +1,5 @@
+//kodet af Kasper 
+
 function parallax(){
 	let prlx_lyr_1 = document.getElementById('prlx_lyr_1');
 	let prlx_lyr_2 = document.getElementById('prlx_lyr_2');
