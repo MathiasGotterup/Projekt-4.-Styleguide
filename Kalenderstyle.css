@@ -125,9 +125,8 @@ h2{
 
 .dato-uge{
     text-align: center;
+    background-color: #FFFFFF;
 }
-
-
 
 .prev{
     align-self: flex-start;
@@ -140,8 +139,18 @@ h2{
     background-color: #CAE4E3;
     text-decoration: underline;
     border: none;
-    
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
+.prev:hover {
+    background-color: rgb(71,185,179,80%);
+}
+.prev:active{
+    background-color: #00454E;
 }
 
 .next{
@@ -149,4 +158,18 @@ h2{
     right: 1vw;
     top: 1vw;
     position: absolute;
+    color: #00454E;
+    font-family: 'arial';    
+    font-size: 3vw;
+    background-color: #CAE4E3;
+    text-decoration: underline;
+    border: none;
+}
+
+.next:hover {
+    background-color: rgb(71,185,179,80%);
+}
+
+.next:active{
+    background-color: #00454E;
 }
