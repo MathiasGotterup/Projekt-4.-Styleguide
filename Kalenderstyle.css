@@ -1,7 +1,7 @@
 
 body{ 
-    margin:0px; 
-    background-color: #47B9B3;
+    margin:auto; 
+    background-color: #CAE4E3;
     max-width: 320px;
 }
 #prlx_lyr_1{
@@ -22,19 +22,18 @@ body{
     grid-template-areas:
     "h h . . . . . . . ."
     "a a a a a . d d d ."
-    "a a a a a . e e e ."
+    "a a a a a e e e e ."
     ". . . . . . . . . ."
     "b b b b b . c c c ."
-    "b b b b b . g g g ."
+    "b b b b b g g g g ."
     ;
     grid-template-columns: repeat(10 ,1fr);
-    background-color: #CAE4E3;
+    background-color: #ffffff;
     box-sizing: border-box;
     align-items: center;
     padding-left: 1em;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-bottom: 5%;
-    margin-left: 5%;
 }
 
 .modul1{
@@ -54,28 +53,53 @@ body{
     padding-left: 0.5em; 
     margin-bottom: 10px;
 
+
 }
 
 .top{
     grid-area: d;
     margin-bottom: auto;
+
 }
 
 .bund{
     grid-area: c;
-    margin-bottom: auto;
 }
 
 .forberedelse1{
     grid-area: e;
-    border-radius: 8px; 
-    border-color: rgb(207, 207, 207),0.5;
+    color: #00454E;
+    font-family: 'arial';    
+    font-size: 3vw;
+    background-color: #CAE4E3;
+    text-decoration: underline;
+    border: none;
+    border-radius: 10px;
+    padding: 3%;
+    margin-right: 8%;
+    margin-top: 3%;
 }
 
 .forberedelse2{
     grid-area: g;
-    border-radius: 8px;
-    border-color: rgb(207, 207, 207),0.5;
+    color: #00454E;
+    font-family: 'arial';    
+    font-size: 3vw;
+    background-color: #CAE4E3;
+    text-decoration: underline;
+    border: none;
+    border-radius: 10px;
+    padding: 3%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+.forberedelse1:hover {
+    background-color: rgb(71,185,179,80%);
+}
+
+.forberedelse2:hover {
+    background-color: rgb(71,185,179,80%);
 }
 
 .dag{
@@ -99,4 +123,30 @@ h2{
     display: none;
 }
 
+.dato-uge{
+    text-align: center;
+}
 
+
+
+.prev{
+    align-self: flex-start;
+    left: 1vw;
+    top: 1vw;
+    position: absolute;
+    color: #00454E;
+    font-family: 'arial';    
+    font-size: 3vw;
+    background-color: #CAE4E3;
+    text-decoration: underline;
+    border: none;
+    
+
+}
+
+.next{
+    align-self: flex-start;
+    right: 1vw;
+    top: 1vw;
+    position: absolute;
+}

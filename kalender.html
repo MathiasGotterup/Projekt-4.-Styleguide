@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Kalenderstyle.css">
-    <script src="kalenderjava.js"></script>
+    <script src="kalenderjava.js" defer></script>
     <title>Kalender</title>
 </head>
 <body>
 
-<H1>Kalender</H1>
 
-<button a class="prev" onclick="plusSlides(-1)" > Forrige uge</button>
-<button a class="next" onclick="plusSlides(1)" >Næste uge</button>
+<div class="top-container"></div>
+
+<button a class="prev" onclick="plusSlides(-1)" > <- </button>
+<button a class="next" onclick="plusSlides(1)" > -> </button>
+
+
 
  <div class="uge uge1">
 
+    <div class="dato-uge"> <p>uge 34</p> </div>
+
     <div class="kalender-container">
+
         <h2 class="Mandag">
             Mandag
         </h2>
@@ -36,13 +42,13 @@
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier     
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
 
@@ -66,13 +72,13 @@
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier     
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
 
@@ -80,41 +86,13 @@
         <h2 class="Mandag">
             Onsdag
         </h2>
-        <div class="modul1">
-        <p></p>
-        <p></p>
-        <p></p>
-        </div>
-
-        <div class="modul2">
-        <p></p>
-        <p></p>
-        <p></p>
-        </div>
-
-           <div class="top">
-            <p>8:15-11:30</p>
-            </div> 
-            <button class="forberedelse1">Se lektier >    
-            </button>
-
-        <div class="bund"> 
-        <p>12:15-15:30</p>
-        </div> 
-        <button class="forberedelse2">Se lektier >
-        </button>
+      
     </div>
 
     <div class="kalender-container">
         <h2 class="Mandag">
             Torsdag
         </h2>
-        <div class="modul1">
-        <p></p>
-        <p></p>
-        <p></p>
-        </div>
-
         <div class="modul2">
         <p>Underviser: RÅUK</p>
         <p>Userflow</p>
@@ -122,15 +100,14 @@
         </div>
 
            <div class="top">
-            <p>8:15-11:30</p>
+            <p></p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
-            </button>
+            
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
     <div class="kalender-container">
@@ -143,54 +120,45 @@
         <p>Lokale: b.1.09</p>
         </div>
 
-        <div class="modul2">
-        <p></p>
-        <p></p>
-        <p></p>
-        </div>
-
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier  
             </button>
 
-        <div class="bund"> 
-        <p>12:15-15:30</p>
-        </div> 
-        <button class="forberedelse2">Se lektier >
-        </button>
     </div>
 </div>
 
 <div class="uge uge2">
+
+    <div class="dato-uge"> <p>uge 35</p> </div>
 
     <div class="kalender-container">
         <h2 class="Mandag">
            Mandag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
+        <p>Underviser: TGIF</p>
+        <p>Bruger Analyse</p>
+        <p>Lokale: b.0.04</p>
         </div>
 
         <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: JIVE</p>
+        <p>Master class</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier   
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
 
@@ -200,57 +168,24 @@
             Tirsdag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
-        </div>
-
-        <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: JEFE</p>
+        <p>Bruger Test</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier 
             </button>
 
-        <div class="bund"> 
-        <p>12:15-15:30</p>
-        </div> 
-        <button class="forberedelse2">Se lektier >
-        </button>
     </div>
 
     <div class="kalender-container">
         <h2 class="Mandag">
             Onsdag
         </h2>
-        <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
-        </div>
-
-        <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
-        </div>
-
-           <div class="top">
-            <p>8:15-11:30</p>
-            </div> 
-            <button class="forberedelse1">Se lektier >    
-            </button>
-
-        <div class="bund"> 
-        <p>12:15-15:30</p>
-        </div> 
-        <button class="forberedelse2">Se lektier >
-        </button>
+        
     </div>
 
     <div class="kalender-container">
@@ -258,27 +193,27 @@
             Torsdag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: RKUT/KRØJ</p>
+        <p>Workshop: online data</p>
         <p>Lokale: b.1.09</p>
         </div>
 
         <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: RKUT/KRØJ</p>
+        <p>Workshop: online data</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier  
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
     <div class="kalender-container">
@@ -286,59 +221,39 @@
             Fredag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
-        </div>
-
-        <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: KRØJ</p>
+        <p>Userflow: feedback</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier 
             </button>
 
-        <div class="bund"> 
-        <p>12:15-15:30</p>
-        </div> 
-        <button class="forberedelse2">Se lektier >
-        </button>
     </div>
 </div>
 
 <div class="uge uge3">
 
+    <div class="dato-uge"> <p>uge 36</p> </div>
+
     <div class="kalender-container">
         <h2 class="Mandag">
             Mandag
         </h2>
-        <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
-        </div>
-
+        
         <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: JIVE </p>
+        <p>Kildekritik</p>
         <p>Lokale: b.1.09</p>
         </div>
-
-           <div class="top">
-            <p>8:15-11:30</p>
-            </div> 
-            <button class="forberedelse1">Se lektier >    
-            </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
 
@@ -348,27 +263,27 @@
             Tirsdag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
+        <p>Underviser: KRØJ</p>
+        <p>Film og andre (dårligere) medier</p>
+        <p>Lokale: b.1.10</p>
         </div>
 
         <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: RAJ</p>
+        <p>Redesign af kantine</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier 
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
 
@@ -377,28 +292,17 @@
             Onsdag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
-        </div>
-
-        <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: VIGGO</p>
+        <p>Fernabranca og andre medicin midler</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier  
             </button>
 
-        <div class="bund"> 
-        <p>12:15-15:30</p>
-        </div> 
-        <button class="forberedelse2">Se lektier >
-        </button>
     </div>
 
     <div class="kalender-container">
@@ -406,27 +310,27 @@
             Torsdag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: HRUP</p>
+        <p>Underviser er ikke et rigtigt arbejde</p>
         <p>Lokale: b.1.09</p>
         </div>
 
         <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
+        <p>Underviser: ELTON </p>
+        <p>PM møde</p>
+        <p>Lokale: a.8.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier   
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
     <div class="kalender-container">
@@ -434,31 +338,30 @@
             Fredag
         </h2>
         <div class="modul1">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
-        <p>Lokale: b.1.09</p>
+        <p>Underviser: HRUP</p>
+        <p>User matrix</p>
+        <p>Lokale: b.2.09</p>
         </div>
 
         <div class="modul2">
-        <p>Underviser: RKUT</p>
-        <p>Userflow</p>
+        <p>Underviser: HRUP</p>
+        <p>User matrix</p>
         <p>Lokale: b.1.09</p>
         </div>
 
            <div class="top">
             <p>8:15-11:30</p>
             </div> 
-            <button class="forberedelse1">Se lektier >    
+            <button class="forberedelse1">Se lektier   
             </button>
 
         <div class="bund"> 
         <p>12:15-15:30</p>
         </div> 
-        <button class="forberedelse2">Se lektier >
+        <button class="forberedelse2">Se lektier 
         </button>
     </div>
 </div>
-
 
 <div id="prlx_lyr_1"></div>
 <div id="prlx_lyr_2"></div>
