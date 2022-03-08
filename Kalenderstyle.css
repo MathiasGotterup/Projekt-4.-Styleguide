@@ -23,54 +23,51 @@ body{
     "h h . . . . . . . ."
     "a a a a a . d d d ."
     "a a a a a e e e e ."
-    ". . . . . . . . . ."
+    "s s s s s s s s s s"
     "b b b b b . c c c ."
     "b b b b b g g g g ."
     ;
     grid-template-columns: repeat(10 ,1fr);
-    background-color: #ffffff;
     box-sizing: border-box;
-    align-items: center;
     padding-left: 1em;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-bottom: 5%;
+    grid-gap: 5px;
 }
 
+/*.hvidstreg{
+    background-color: hotpink;
+    grid-area: s;
+    padding-left: -1em;
+}
+*/
 .modul1{
-    padding-left: 1%;
-    padding-bottom: 1%;
     grid-area: a;
     background-color: #ffffff;
-    padding-left: 0.5em; 
-    margin-bottom: 10px;
+    padding-left: 0.5em;
 }
 
 .modul2{
-    padding-left: 1%;
-    padding-bottom: 1%;
     grid-area: b;
     background-color: #FFFFFF;
-    padding-left: 0.5em; 
-    margin-bottom: 10px;
-
-
+    padding-left: 0.5em;
 }
 
 .top{
     grid-area: d;
-    margin-bottom: auto;
-
+    margin-bottom: 0.3em;
+    background-color: #ffffff;
 }
 
 .bund{
     grid-area: c;
+    background-color: #ffffff;
 }
 
 .forberedelse1{
     grid-area: e;
     color: #00454E;
     font-family: 'arial';    
-    font-size: 3vw;
+    font-size: 14px;
     background-color: #CAE4E3;
     text-decoration: underline;
     border: none;
@@ -84,7 +81,7 @@ body{
     grid-area: g;
     color: #00454E;
     font-family: 'arial';    
-    font-size: 3vw;
+    font-size: 14px;
     background-color: #CAE4E3;
     text-decoration: underline;
     border: none;
@@ -116,7 +113,9 @@ h1{
 
 h2{
     color: #00454E;
-    padding-left: 0.5em;
+    background-color: #FFFFFF;
+    padding: 0.3em;
+
 }
 
 .uge{
@@ -126,6 +125,8 @@ h2{
 .dato-uge{
     text-align: center;
     background-color: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
 }
 
 .prev{
@@ -136,7 +137,7 @@ h2{
     color: #00454E;
     font-family: 'arial';    
     font-size: 3vw;
-    background-color: #CAE4E3;
+    background-color: #ffffff;
     text-decoration: underline;
     border: none;
     -webkit-transform:rotate(180deg);
@@ -144,6 +145,7 @@ h2{
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .prev:hover {
@@ -161,9 +163,10 @@ h2{
     color: #00454E;
     font-family: 'arial';    
     font-size: 3vw;
-    background-color: #CAE4E3;
+    background-color: #ffffff;
     text-decoration: underline;
     border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .next:hover {
@@ -172,4 +175,9 @@ h2{
 
 .next:active{
     background-color: #00454E;
+}
+
+.wtf{
+    grid-area: a d e;
+    background-color: #ffffff;
 }
