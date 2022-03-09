@@ -1,0 +1,66 @@
+body{
+    background-color: #00454E;
+}
+
+body{
+    height: 50%;
+    }
+
+.tekst{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3vw;
+    float: left;
+    margin-left: 32%;
+}
+
+.dansk{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3vw;
+    font-style: italic;
+    float: right;
+    margin-right: 32%;
+}
+
+#n{
+    width: 50%;
+}
+
+#e{
+    width: 50%;
+}
+
+#m{
+    font-family: arial;
+    width: 50%;
+}
+
+#my_form{
+    margin-left: 32%;
+}
+
+.logud {
+    color: #00454E;
+    font-family: 'arial';    
+    font-size: 15px;
+    background-color: #ffffff;
+    text-decoration: underline;
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    width: 120px;
+    max-width: 100%;
+    margin-left: 40%;
+}
+
+.logud:hover {
+    background-color: rgb(71,185,179,80%);
+}
+
+.logudikon {
+    width: 15px;
+    max-width: 100%;
+    margin-left: 8px;
+}
+
