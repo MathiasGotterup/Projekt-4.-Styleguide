@@ -35,6 +35,26 @@ body{
     margin: auto;
 }
 
+.infotekstbold{
+    color: #00454E;
+    font-family: arial;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.infooverskriftroed{
+    color: #A81A1A;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%; 
+}
+
 .nyhedbox {
     width: 100%;
     background-color: #FFFFFF;
@@ -103,4 +123,8 @@ body{
 
 .nyhederknap:hover {
     background-color: rgb(71,185,179,80%);
+}
+
+a {
+    color: #00454E;
 }
