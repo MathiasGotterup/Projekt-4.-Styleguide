@@ -105,12 +105,26 @@ p{
 }
 
 
+h1{
+    color: #00454E;
+    background-color: #FFFFFF;
+    font-family: 'arial';
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
 h2{
     color: #00454E;
     background-color: #FFFFFF;
     padding: 0.3em;
     font-family: 'arial';
-
+    font-size: 6vw;
 }
 
 .uge{
@@ -121,16 +135,10 @@ h2{
     grid-area: o;
 }
 
-.dato-uge{
-    text-align: center;
-    background-color: #FFFFFF;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
 
 .prev{
-    align-self: flex-start;
-    left: 1vw;
-    top: 1vw;
+margin-bottom: 5%;
+
     position: absolute;
     color: #00454E;
     font-family: 'arial';    
