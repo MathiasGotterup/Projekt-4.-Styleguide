@@ -135,22 +135,14 @@ h2{
     grid-area: o;
 }
 
+.knap{
+    height: 62.83px;
+    width: auto;
+}
 
 .prev{
-margin-bottom: 5%;
-
-    position: absolute;
-    color: #00454E;
-    font-family: 'arial';    
-    font-size: 3vw;
-    background-color: #ffffff;
     text-decoration: underline;
     border: none;
-    -webkit-transform:rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -162,13 +154,6 @@ margin-bottom: 5%;
 }
 
 .next{
-    align-self: flex-start;
-    right: 1vw;
-    top: 1vw;
-    position: absolute;
-    color: #00454E;
-    font-family: 'arial';    
-    font-size: 3vw;
     background-color: #ffffff;
     text-decoration: underline;
     border: none;
