@@ -4,7 +4,7 @@ const splash = document.querySelector(".splash");
 document.addEventListener("DOMContentLoaded" , (i)=>{
     setTimeout(()=>{
         splash.classList.add("display-none");
-    }, 50000);
+    }, 3000);
 })
   function intro() {
       
@@ -14,32 +14,15 @@ document.addEventListener("DOMContentLoaded" , (i)=>{
         clearInterval(id);
         id = setInterval(frame, 3);
         function frame() {
-          if (pos >= 45 ) {
-            clearInterval(id); 
-            introz()
-          } else {
-        pos = pos+0.1; 
-            elem.style.marginLeft = pos + "vw"; 
-          }
-        }
-      }
-      
-      function introz() {
-      alert("hej")
-        let id = null;
-        const elem = document.getElementById("z");          
-        let pos = 0;
-        clearInterval(id);
-        id = setInterval(frame, 3);
-        function frame() {
-          if (pos >= 45 ) {
+          if (pos >= 40 ) {
             clearInterval(id); 
           } else {
         pos = pos+0.1; 
-            elem.style.marginLeft = pos + "vw"; 
+            elem.style.marginLeft = pos + "vw";
           }
         }
       }
+
 
       const le = document.getElementById("e");
       const lz = document.getElementById("z");
