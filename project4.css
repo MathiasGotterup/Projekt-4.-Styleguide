@@ -33,15 +33,19 @@
   opacity: 0;
   color: red;
   animation: fadeIn 1s ease-in forwards;
-  text-align: left;
+  width: 200px;
+  position: fixed;
+  left: -100px;
+  bottom: 50%;
 }
+
 
 /*Staals animation slut*/
 
 /* - Start Lynge's login */
 header {
   display: flex;
-  background: teal;
+  background: #00454e;
   color: white;
   height: 75px;
   flex-direction: column;
@@ -51,13 +55,14 @@ header {
 header h1 {
   width: 100%;
   text-align: left;
-  margin-left: 10px;
+  padding-left: 10px;
 }
 
 body {
-  background: lightgrey;
+  background: #cae4e3;
   margin: 0px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .login {
@@ -71,6 +76,29 @@ body {
   width: 250px;
   height: 250px;
   margin: auto;
+}
+
+.logo{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.passplace{
+  display: flex;
+  align-items: center;
+}
+
+.login p{
+  margin-top: 0px;
+  height: 10px;
+}
+
+#btnveiw{
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  margin-left: -20px;
 }
 /* - Slut Lynge's login */
 

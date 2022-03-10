@@ -4,7 +4,7 @@ const splash = document.querySelector(".splash");
 document.addEventListener("DOMContentLoaded" , (i)=>{
     setTimeout(()=>{
         splash.classList.add("display-none");
-    }, 3000);
+    }, 2000);
 })
   function intro() {
       
@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded" , (i)=>{
         clearInterval(id);
         id = setInterval(frame, 3);
         function frame() {
-          if (pos >= 40 ) {
+          if (pos >= 50 ) {
             clearInterval(id); 
           } else {
         pos = pos+0.1; 
-            elem.style.marginLeft = pos + "vw";
+            elem.style.marginLeft = pos + "%";
           }
         }
       }
@@ -83,10 +83,10 @@ function seep(){
     let btn = document.getElementById("btnveiw");
     if(pass.type == "password"){
         pass.type = "text";
-        btn.innerHTML = "skjul"
+        btn.src = "eyeyes.png";
     }else{
         pass.type = "password";
-        btn.innerHTML = "see"
+        btn.src = "eyeno.png";
     }
     
 }

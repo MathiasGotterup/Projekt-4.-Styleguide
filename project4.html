@@ -11,7 +11,8 @@
   <body onload="intro()">
     <!--Staals animation-->
     <div class="splash">
-      <h1 id="e" class="fade-in">EZinfo</h1>
+    <!--  <h1 id="e" class="fade-in">EZinfo</h1>-->
+        <img id="e" class="fade-in" src="UCLneg.png" alt="UCL's logo">
     </div>
     <!--Staals animation slut-->
 
@@ -26,6 +27,7 @@
         your local service.
       </p>
       <div class="login">
+        <img class="logo" src="UCLpos.png" alt="UCL's logo">
         <input
           type="text"
           placeholder="Brugernavn"
@@ -33,13 +35,16 @@
           id="bind"
         />
         <p id="berr"></p>
-        <input
+        <div class="passplace">
+          <input
           type="password"
           placeholder="Kodeord"
           onblur="kvalid()"
           id="kind"
-        />
-        <button onclick="seep()" id="btnveiw">see</button>
+          />
+          <img onclick="seep()" id="btnveiw" src="eyeno.png" alt="eye with line through">
+        </div>
+       
         <p id="kerr"></p>
         <button onclick="sub()">Sign in</button>
       </div>
