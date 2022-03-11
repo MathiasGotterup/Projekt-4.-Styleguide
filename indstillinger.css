@@ -1,66 +1,131 @@
-body{
-    background-color: #00454E;
+body {
+  background-color: #cae4e3;
+  margin: 0%;
+  font-family: Arial;
+  height: 100%;
+  width: 100%;
+}
+header {
+  text-align: center;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #00454e;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-body{
-    height: 50%;
-    }
-
-.tekst{
-    color: #ffffff;
-    text-align: center;
-    font-size: 3vw;
-    float: left;
-    margin-left: 32%;
+.dropbtn {
+  background-color: #00454e;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  margin: 0%;
+  flex-direction: column;
+}
+.tekst {
+  color: #00454e;
+  text-align: center;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #cae4e3;
+  color: #00454e;
+}
+.hjemknap {
+  width: auto;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.dropbtn p {
+  margin: 0%;
+  pointer-events: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.dansk{
-    color: #ffffff;
-    text-align: center;
-    font-size: 3vw;
-    font-style: italic;
-    float: right;
-    margin-right: 32%;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0%;
+  margin-top: 140px;
+  background-color: #00454e;
+  overflow: auto;
+  z-index: 1;
 }
 
-#n{
-    width: 50%;
+.dropdown-content a {
+  color: #cae4e3;
+  padding: 13px 31px;
+  text-decoration: none;
+  display: block;
 }
 
-#e{
-    width: 50%;
+.dropdown a:hover {
+  background-color: #00454e;
+}
+.flag {
+  width: 25px;
+  max-height: 12.5px;
+  margin-top: 2px;
+}
+.noclick {
+  pointer-events: none;
+}
+.show {
+  display: block;
+}
+#n {
+  width: 250px;
 }
 
-#m{
-    font-family: arial;
-    width: 50%;
+#e {
+  width: 250px;
 }
 
-#my_form{
-    margin-left: 32%;
+#m {
+  width: 250px;
+}
+
+#my_form {
+  text-align: center;
 }
 
 .logud {
-    color: #00454E;
-    font-family: 'arial';    
-    font-size: 15px;
-    background-color: #ffffff;
-    text-decoration: underline;
-    border: none;
-    border-radius: 10px;
-    padding: 2%;
-    width: 120px;
-    max-width: 100%;
-    margin-left: 40%;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #00454e;
+  text-decoration: underline;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .logud:hover {
-    background-color: rgb(71,185,179,80%);
+  background-color: #ffffff;
+  color: #00454e;
 }
 
 .logudikon {
-    width: 15px;
-    max-width: 100%;
-    margin-left: 8px;
+  width: 15px;
+  max-width: 100%;
+  margin-left: 8px;
 }
-
