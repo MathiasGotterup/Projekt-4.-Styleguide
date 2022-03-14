@@ -1,5 +1,5 @@
 
-
+//Staals java
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -47,7 +47,9 @@ function logudskifttilbage()
 	document.getElementById("lui").src = "Assets/logudhvid.png"
 }
 
-
+const supermansconsolelog = ["superman", "batman", "spiderman"];
+console.log(supermansconsolelog);
+//Staals java
 
 function _(id) {return document.getElementById(id);}
 function submitForm(){
