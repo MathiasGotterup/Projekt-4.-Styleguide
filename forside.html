@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="forsidevigtiginfoognyheder.css">
-<title>forside</title>
-<script src="script.js" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="forsidevigtiginfoognyheder.css" />
+    <title>forside</title>
+    <script src="" defer></script>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="mpt"></div>
+      <div>Forside</div>
+
+      <a class="settings" href="indstillinger.html"
+        ><img src="Assets/settings.png" alt="indstillinger" />
+      </a>
+    </header>
+
     <div class="infobox">
-    <p class="infooverskrift">
-        Næste lektion
-    </p>
-    <p class="infotekst">
+      <p class="infooverskrift">Næste lektion</p>
+      <p class="infotekst">
         Din næste lektion er kl 12:15
-        <br> Lokale: b.1.09
-        <br> Underviser: KRUT - userflow
-    </p> 
-    <br>
-    <button class="nyhederknap">Se lektier &#8250;</button>
+        <br />
+        Lokale: b.1.09 <br />
+        Underviser: KRUT - userflow
+      </p>
+      <div class="toright">
+        <button class="nyhederknap">Se lektier &#8250;</button>
+      </div>
     </div>
 
     <div class="nyhedbox">
-        <p class="infooverskrift">
-            Seneste nyt
-        </p>
-        <p class="nyhedoverskrift">Rum: Erhversakademiet</p>
-        <img src="usericon.png" alt="user" class="nuser">
-        <p class="nyhederuser">KGOP</p>
-        <div class="tekstbubble">
-            <p class="nyhedertekst">
-                Der er PM møde på 
-                torsdag klokken 14:00. Jeg 
-                deler agendaen på dette følgende link: .. </p>
+      <p class="infooverskrift">Seneste nyt</p>
+      <p class="nyhedoverskrift">Rum: Erhversakademiet</p>
+
+      <div class="nalign">
+        <div>
+          <img src="Assets/usericon.png" alt="user" class="nuser" />
+          <p class="nyhederuser">KGOP</p>
         </div>
-        <br>
+
+        <div class="tekstbubble">
+          <p class="nyhedertekst">
+            Der er PM møde på torsdag klokken 14:00. Jeg deler agendaen på dette
+            følgende link: ..
+          </p>
+        </div>
+      </div>
+      <div class="toright">
         <button class="nyhederknap">
-        <a href="nyheder.html">
-        Se opslag &#8250;
-        </a>
+          <a href="nyheder.html"> Se opslag &#8250; </a>
         </button>
+      </div>
     </div>
 
-    <footer>
-        <a href="" class="fbtn" id="fhome">
-          <img src="home.png" alt="home icon" class="ficon" />
-        </a>
-        <a href="" class="fbtn">
-          <img src="newswhite.png" alt="news icon" class="ficon" />
-        </a>
-        <a href="" class="fbtn">
-          <img src="calenderwhite.png" alt="calender icon" class="ficon" />
-        </a>
-        <a href="" class="fbtn">
-          <img src="infowhite.png" alt="important icon" class="ficon" />
-        </a>
-      </footer>
+    <!--bund menu-->
 
-</body>
+    <footer>
+      <a class="fbtn" id="fhome">
+        <img src="Assets/home.png" alt="home icon" class="ficon" />
+      </a>
+      <a href="nyheder.html" class="fbtn">
+        <img src="Assets/newswhite.png" alt="news icon" class="ficon" />
+      </a>
+      <a href="kalender.html" class="fbtn">
+        <img src="Assets/calenderwhite.png" alt="calender icon" class="ficon" />
+      </a>
+      <a href="vigtiginfo.html" class="fbtn">
+        <img src="Assets/infowhite.png" alt="important icon" class="ficon" />
+      </a>
+    </footer>
+  </body>
 </html>

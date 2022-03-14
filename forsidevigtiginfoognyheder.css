@@ -1,141 +1,198 @@
-body{
-    background-color: #CAE4E3;
-}
-.infobox{
-    width: 100%;
-    height: 260px;
-    background-color: #FFFFFF;
-    box-shadow: 20px 1px 25px rgb(0, 0, 0, 16%);
+body {
+  background-color: #cae4e3;
 }
 
-.infooverskrift{
-    color: #00454E;
-    font-family: arial;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 5%;
-    
+header {
+  color: #ffffff;
+  background-color: #00454e;
+  font-family: arial;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -8px;
+}
+.settings {
+  width: 30px;
+  height: 100%;
+}
+.settings img {
+  width: 100%;
 }
 
-.infoikon{
-    width: 35px;
-    padding-left: 5%;
-    padding-top: 5%;
-    position:absolute;
+.mpt {
+  width: 30px;
 }
 
-.infotekst{
-    color: #00454E;
-    font-family: arial;
-    font-size: 20px;
-    width: 60%;
-    text-align: center;
-    margin: auto;
+.infobox {
+  width: 100%;
+  max-width: 800px;
+
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 20px 1px 25px rgb(0, 0, 0, 16%);
 }
 
+.infooverskrift {
+  color: #00454e;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.inov {
+  color: #00454e;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.infoikon {
+  width: 35px;
+  cursor: pointer;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.infotekst {
+  color: #00454e;
+  font-family: arial;
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
 
 .nyhedbox {
-    width: 100%;
-    background-color: #FFFFFF;
-    box-shadow: 20px 1px 25px rgb(0,0,0,16%);
-    padding-bottom: 20%;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  box-shadow: 20px 1px 25px rgb(0, 0, 0, 16%);
+  margin-bottom: 60px;
 }
 
 .nyhedoverskrift {
-    color: #00454E;
-    font-family: 'arial';    
-    font-style: italic;
-    font-weight: bold;
-    font-size: 21px;
-    padding-left: 3%;
-    padding-top: 2%;
+  color: #00454e;
+  font-family: "arial";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 21px;
+  padding-left: 3%;
+  padding-top: 2%;
 }
 
 .nyhedertekst {
-    color: #00454E;
-    font-family: 'arial';    
-    font-size: 17px;
-    padding-top: 3%;
-    padding-left: 3%;
+  color: #00454e;
+  font-family: "arial";
+  font-size: 17px;
+  padding-top: 3%;
+  padding-left: 3%;
 }
 
 .nuser {
-    width: 41px;
-    max-width: 100%;
-    padding-left: 10%;
-    position: absolute;
+  width: 41px;
+  max-width: 100%;
+  padding-left: 25px;
 }
 
 .nyhederuser {
-    color: #00454E;
-    font-family: 'arial';   
-    font-size: 17px;
-    padding-left: 9%;
-    padding-top: 8%;
-    position: absolute;
+  color: #00454e;
+  font-family: "arial";
+  font-size: 17px;
+  padding-left: 20px;
+  padding-top: 8%;
+}
+
+.nalign {
+  display: flex;
 }
 
 .tekstbubble {
-    position:relative;
-    width: 290px;
-    max-width: 100%;
-    height: 80px;
-    background: #CAE4E3;
-    border-radius: 20px;
-    border-top-left-radius: 0px;
-    left: 25%;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  max-width: 100%;
+  height: 80px;
+  background: #cae4e3;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  margin-left: 25px;
 }
 
 .nyhederknap {
-    color: #00454E;
-    font-family: 'arial';    
-    font-size: 18px;
-    background-color: #CAE4E3;
-    text-decoration: underline;
-    border: none;
-    border-radius: 10px;
-    padding: 3%;
-    float: right;
-    margin-right: 8%;
-    margin-top: 3%;
+  color: #00454e;
+  font-family: "arial";
+  font-size: 18px;
+  background-color: #cae4e3;
+  text-decoration: underline;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.toright {
+  display: flex;
+  justify-content: end;
 }
 
 .nyhederknap:hover {
-    background-color: rgb(71,185,179,80%);
+  background-color: rgb(71, 185, 179, 80%);
 }
 
 a {
-    color: #00454E;
+  color: #00454e;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-  }
-  
-  .fbtn {
-    background-color: #00454E;
-    align-content: stretch;
-    width: 25%;
-    text-align: center;
-  
-    align-items: center;
-    transition: 0.3s;
-  }
-  
-  .fbtn:hover {
-    background-color: #CAE4E3;
-  }
-  
-  .ficon {
-    margin: 10px;
-    margin-bottom: 5px;
-    height: 50px;
-    width: auto;
+.bottom {
+  margin-bottom: 63px;
+}
 
-  }
+/* bund menu */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin-left: -8px;
+}
+
+.fbtn {
+  background-color: #00454e;
+  align-content: stretch;
+  width: 25%;
+  text-align: center;
+
+  align-items: center;
+  transition: 0.3s;
+}
+
+.fbtn:hover {
+  background-color: #cae4e3;
+}
+
+.ficon {
+  margin: 10px;
+  margin-bottom: 5px;
+  height: 35px;
+  width: auto;
+}
+
+#fhome {
+  background-color: #cae4e3;
+}

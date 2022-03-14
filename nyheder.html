@@ -1,84 +1,127 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <link rel="stylesheet" href="forsidevigtiginfoognyheder.css">
-    <meta charset="UTF-8">
+  <head>
+    <link rel="stylesheet" href="forsidevigtiginfoognyheder.css" />
+    <meta charset="UTF-8" />
     <script src="scriptlejla.js" defer></script>
     <title>Nyheder</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="mpt"></div>
+      <div>Nyheder</div>
+
+      <a class="settings" href="indstillinger.html"
+        ><img src="Assets/settings.png" alt="indstillinger" />
+      </a>
+    </header>
+
     <div class="nyhedbox" id="nbox">
-        <p class="nyhedoverskrift">Rum: Erhversakademiet</p>
-        <img src="usericon.png" alt="user" class="nuser">
-        <p class="nyhederuser">KGOP</p>
-        <div class="tekstbubble">
-            <p class="nyhedertekst">
-                Der er PM møde på 
-                torsdag klokken 14:00. Jeg 
-                deler agendaen på dette følgende link: .. </p>
+      <p class="nyhedoverskrift">Rum: Erhversakademiet</p>
+      <div class="nalign">
+        <div>
+          <img src="Assets/usericon.png" alt="user" class="nuser" />
+          <p class="nyhederuser">KGOP</p>
         </div>
-        <button onclick="jsbubbles(0)" class="nyhederknap">Se opslag &#8250;</button>
-    </div>
 
-    <br>
+        <div class="tekstbubble">
+          <p class="nyhedertekst">
+            Der er PM møde på torsdag klokken 14:00. Jeg deler agendaen på dette
+            følgende link: ..
+          </p>
+        </div>
+      </div>
+
+      <div class="toright">
+        <button onclick="jsbubbles(0)" class="nyhederknap">
+          Se opslag &#8250;
+        </button>
+      </div>
+    </div>
 
     <div class="nyhedbox">
-        <p class="nyhedoverskrift">Rum: MMOE213</p>
-        <img src="usericon.png" alt="user" class="nuser">
-        <p class="nyhederuser">URPD</p>
-        <div class="tekstbubble">
-            <p class="nyhedertekst">
-                Husk at melde jer til studie tur inden på tirsdag. d. 21. august. Brug dette link: ... </p>
+      <p class="nyhedoverskrift">Rum: MMOE213</p>
+      <div class="nalign">
+        <div>
+          <img src="Assets/usericon.png" alt="user" class="nuser" />
+          <p class="nyhederuser">URPD</p>
         </div>
-        <button onclick="jsbubbles(1)" class="nyhederknap">Se opslag &#8250;</button>
+
+        <div class="tekstbubble">
+          <p class="nyhedertekst">
+            Husk at melde jer til studie tur inden på tirsdag. d. 21. august.
+            Brug dette link: ...
+          </p>
+        </div>
+      </div>
+
+      <div class="toright">
+        <button onclick="jsbubbles(1)" class="nyhederknap">
+          Se opslag &#8250;
+        </button>
+      </div>
     </div>
-    
-    <br>
 
     <div class="nyhedbox">
-        <p class="nyhedoverskrift">Rum: MM info til alle</p>
-        <img src="usericon.png" alt="user" class="nuser">
-        <p class="nyhederuser">IHOP</p>
-        <div class="tekstbubble">
-            <p class="nyhedertekst">
-                Der er Kursus i drone certifikat d. 31/12 husk at man skal have taget det...</p>
+      <p class="nyhedoverskrift">Rum: MM info til alle</p>
+      <div class="nalign">
+        <div>
+          <img src="Assets/usericon.png" alt="user" class="nuser" />
+          <p class="nyhederuser">IHOP</p>
         </div>
-        <button onclick="jsbubbles(2)" class="nyhederknap">Se opslag &#8250;</button>
+
+        <div class="tekstbubble">
+          <p class="nyhedertekst">
+            Der er Kursus i drone certifikat d. 31/12 husk at man skal have
+            taget det...
+          </p>
+        </div>
+      </div>
+
+      <div class="toright">
+        <button onclick="jsbubbles(2)" class="nyhederknap">
+          Se opslag &#8250;
+        </button>
+      </div>
     </div>
-    
-    <br>
 
     <div class="nyhedbox">
-        <p class="nyhedoverskrift">Rum: Erhversakademiet</p>
-        <img src="usericon.png" alt="user" class="nuser">
-        <p class="nyhederuser">BRUO</p>
-        <div class="tekstbubble">
-            <p class="nyhedertekst">
-                Husk at der er karriere messe på onsdag d. 6/7. Du kan se lister over deltagende...</p>
+      <p class="nyhedoverskrift">Rum: Erhversakademiet</p>
+      <div class="nalign">
+        <div>
+          <img src="Assets/usericon.png" alt="user" class="nuser" />
+          <p class="nyhederuser">BRUO</p>
         </div>
-        <button onclick="jsbubbles(3)" class="nyhederknap">Se opslag &#8250;</button>
+
+        <div class="tekstbubble">
+          <p class="nyhedertekst">
+            Husk at der er karriere messe på onsdag d. 6/7. Du kan se lister
+            over deltagende...
+          </p>
+        </div>
+      </div>
+
+      <div class="toright">
+        <button onclick="jsbubbles(3)" class="nyhederknap">
+          Se opslag &#8250;
+        </button>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <footer>
-        <a href="" class="fbtn" id="fhome">
-          <img src="homewhite.png" alt="home icon" class="ficon" />
-        </a>
-        <a href="" class="fbtn">
-          <img src="news.png" alt="news icon" class="ficon" />
-        </a>
-        <a href="" class="fbtn">
-          <img src="calenderwhite.png" alt="calender icon" class="ficon" />
-        </a>
-        <a href="" class="fbtn">
-          <img src="infowhite.png" alt="important icon" class="ficon" />
-        </a>
-      </footer>
-
-</body>
-
+      <a href="forside.html" class="fbtn">
+        <img src="Assets/homewhite.png" alt="home icon" class="ficon" />
+      </a>
+      <a class="fbtn" id="fhome">
+        <img src="Assets/news.png" alt="news icon" class="ficon" />
+      </a>
+      <a href="kalender.html" class="fbtn">
+        <img src="Assets/calenderwhite.png" alt="calender icon" class="ficon" />
+      </a>
+      <a href="vigtiginfo.html" class="fbtn">
+        <img src="Assets/infowhite.png" alt="important icon" class="ficon" />
+      </a>
+    </footer>
+  </body>
 </html>
