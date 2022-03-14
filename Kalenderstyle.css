@@ -1,5 +1,5 @@
 body {
-  margin: 5%;
+  margin: 0px;
   background-color: #cae4e3;
 }
 header {
@@ -7,20 +7,23 @@ header {
   background-color: #00454e;
   font-family: arial;
   font-weight: bolder;
-  font-size: 6vw;
-  padding: 4%;
-  margin: -6%;
-  margin-bottom: 5%;
+  font-size: 20px;
+  padding: 5px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
 }
 .settings {
-  width: 6vw;
+  width: 30px;
   height: 100%;
-  margin-left: 30%;
 }
 .settings img {
   width: 100%;
+}
+
+.mpt {
+  width: 30px;
 }
 
 #prlx_lyr_1 {
@@ -39,36 +42,38 @@ header {
 .kalender-container {
   display: grid;
   grid-template-areas:
-    "h h . . . . o o . ."
-    "a a a a a . d d d d"
-    "a a a a a . e e e e"
-    "b b b b b . c c c c"
-    "b b b b b . g g g g";
+    "h h . . . o o o . ."
+    "a a a a a d d d d d"
+    "a a a a a e e e e e"
+    "b b b b b c c c c c"
+    "b b b b b g g g g g";
   grid-template-columns: repeat(10, 1fr);
   box-sizing: border-box;
-  padding-left: 4%;
-  padding-right: 4%;
-  margin-bottom: 5%;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 25px;
   grid-gap: 5px;
   background-color: #ffffff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .modul1 {
   grid-area: a;
   background-color: #ffffff;
-  padding-left: 0.5em;
+  padding-left: 10px;
 }
 
 .modul2 {
   grid-area: b;
   background-color: #ffffff;
-  padding-left: 0.5em;
+  padding-left: 10px;
 }
 
 .top {
   grid-area: d;
-  margin-bottom: 0.3em;
+  margin-bottom: 10px;
   background-color: #ffffff;
 }
 
@@ -81,27 +86,25 @@ header {
   grid-area: e;
   color: #00454e;
   font-family: "arial";
-  font-size: 3vw;
+  font-size: 15px;
   background-color: #cae4e3;
   text-decoration: underline;
   border: none;
   border-radius: 10px;
-  padding: 3%;
-  max-height: 8vw;
+  padding: 5px;
 }
 
 .forberedelse2 {
   grid-area: g;
   color: #00454e;
   font-family: "arial";
-  font-size: 3vw;
+  font-size: 15px;
   background-color: #cae4e3;
   text-decoration: underline;
   border: none;
   border-radius: 10px;
-  padding: 3%;
-  margin-bottom: 2vw;
-  max-height: 8vw;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .forberedelse1:hover {
@@ -119,7 +122,7 @@ header {
 p {
   color: #00454e;
   font-family: "arial";
-  font-size: 3.5vw;
+  font-size: 15px;
 }
 
 h1 {
@@ -127,20 +130,18 @@ h1 {
   color: #00454e;
   background-color: #ffffff;
   font-family: "arial";
-  font-size: 6vw;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding: 5%;
+
 }
 h2 {
   color: #00454e;
   background-color: #ffffff;
-  padding: 0.3em;
+  padding: 5px;
   font-family: "arial";
-  font-size: 6vw;
+  font-size: 20px;
 }
 
 .uge {
@@ -153,26 +154,30 @@ h2 {
 
 .top-container {
   display: grid;
-  grid-template-areas: "p . . q q q q . . n";
+  grid-template-areas: "p q q q q q q q q n";
   grid-template-columns: repeat(10, 1fr);
-  padding-top: 0.5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 2.5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   grid-gap: 5px;
   background-color: #ffffff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .knap {
-  height: 13.4vw;
+  height: 35px;
   width: auto;
 }
 
 .prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: p;
   border: none;
   background-color: #ffffff;
-  padding-right: 5%;
+  padding-right: 25px;
+  
 }
 
 .prev:active {
@@ -180,12 +185,63 @@ h2 {
 }
 
 .next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-area: n;
   border: none;
   background-color: #ffffff;
-  padding-right: 5%;
+  padding-right: 25px;
 }
 
 .next:active {
   background-color: #00454e;
+}
+
+.bottom {
+  margin-bottom: 75px;
+}
+
+#prlx_lyr_1{
+  pointer-events: none;
+}
+
+#prlx_lyr_2{
+  pointer-events: none;
+}
+
+/* bund menu */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin-left: 0px;
+}
+
+.fbtn {
+  background-color: #00454e;
+  align-content: stretch;
+  width: 25%;
+  text-align: center;
+
+  align-items: center;
+  transition: 0.3s;
+}
+
+.fbtn:hover {
+  background-color: #cae4e3;
+}
+
+.ficon {
+  margin: 10px;
+  margin-bottom: 5px;
+  height: 35px;
+  width: auto;
+}
+
+#fhome {
+  background-color: #cae4e3;
 }
