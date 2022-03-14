@@ -180,7 +180,6 @@ h2 {
   grid-area: p;
   border: none;
   background-color: #ffffff;
-  padding-right: 25px;
   
 }
 
@@ -195,7 +194,6 @@ h2 {
   grid-area: n;
   border: none;
   background-color: #ffffff;
-  padding-right: 25px;
 }
 
 .next:active {
