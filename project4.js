@@ -86,7 +86,7 @@ function sub(){
         }
     }
     if(checker == checks.length){
-
+window.location.href="forside.html"
     }else{
         alert("Brugernavn eller kodeord er forkert")
     }
