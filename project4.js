@@ -70,10 +70,10 @@ function seep(){
     let btn = document.getElementById("btnveiw");
     if(pass.type == "password"){
         pass.type = "text";
-        btn.src = "eyeyes.png";
+        btn.src = "Assets/eyeyes.png";
     }else{
         pass.type = "password";
-        btn.src = "eyeno.png";
+        btn.src = "Assets/eyeno.png";
     }
     
 }
