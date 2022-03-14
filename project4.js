@@ -23,19 +23,6 @@ document.addEventListener("DOMContentLoaded" , (i)=>{
         }
       }
 
-
-      const le = document.getElementById("e");
-      const lz = document.getElementById("z");
-      const li = document.getElementById("i");
-      const ln = document.getElementById("n");
-      const lf = document.getElementById("f");
-      const lo = document.getElementById("o");
-
-
-      
-
-      
-
 //Staal animation slut
 
 
@@ -99,7 +86,7 @@ function sub(){
         }
     }
     if(checker == checks.length){
-        alert("Ind");
+
     }else{
         alert("Brugernavn eller kodeord er forkert")
     }

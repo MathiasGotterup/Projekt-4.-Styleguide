@@ -1,4 +1,4 @@
-html{
+html {
   width: 100%;
 }
 
@@ -81,27 +81,26 @@ body {
   margin: auto;
 }
 
-.logo{
+.logo {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 15px;
 }
 
-.passplace{
+.passplace {
   display: flex;
   align-items: center;
 }
 
-.login p{
+.login p {
   margin-top: 0px;
   height: 10px;
 }
 
-#btnveiw{
+#btnveiw {
   height: 15px;
   width: 15px;
   cursor: pointer;
   margin-left: -20px;
 }
 /* - Slut Lynge's login */
-
