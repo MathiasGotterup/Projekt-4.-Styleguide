@@ -1,6 +1,7 @@
 body {
-  margin: 0px;
+  margin: 8px;
   background-color: #cae4e3;
+  text-align: center;
 }
 header {
   color: #ffffff;
@@ -12,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px;
+  margin: -8px;
 }
 .settings {
   width: 30px;
@@ -40,23 +41,24 @@ header {
 }
 
 .kalender-container {
+  text-align: left;
   display: grid;
   grid-template-areas:
-    "h h . . . o o o . ."
-    "a a a a a d d d d d"
-    "a a a a a e e e e e"
-    "b b b b b c c c c c"
-    "b b b b b g g g g g";
+    "h h . . . . o o . ."
+    "a a a a a . d d d d"
+    "a a a a a . e e e e"
+    "b b b b b . c c c c"
+    "b b b b b . g g g g";
   grid-template-columns: repeat(10, 1fr);
   box-sizing: border-box;
-  margin: 20px;
+  margin: auto;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 25px;
   grid-gap: 5px;
   background-color: #ffffff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  max-width: 500px;
 }
 
 .modul1 {
@@ -157,11 +159,13 @@ h2 {
   grid-template-areas: "p q q q q q q q q n";
   grid-template-columns: repeat(10, 1fr);
   padding-top: 2.5px;
+  margin: auto;
   margin-top: 25px;
   margin-bottom: 25px;
   grid-gap: 5px;
   background-color: #ffffff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 500px;
 }
 
 .knap {
